@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Les Créations — Rouletabille Théâtre</title>
+  <meta name="description" content="Découvrez toutes les créations de la compagnie Rouletabille Théâtre : spectacles, festivals, expositions et projets participatifs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-main">Rouletabille</span>
+      <span class="nav-logo-sub">Théâtre</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="creations.html" class="active">Créations</a></li>
+      <li><a href="education.html">Éducation</a></li>
+      <li><a href="equipe.html">L'équipe</a></li>
+      <li><a href="histoire.html">Histoire</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="closeMenu" aria-label="Fermer">✕</button>
+  <a href="index.html">Accueil</a>
+  <a href="creations.html">Créations</a>
+  <a href="education.html">Éducation</a>
+  <a href="equipe.html">L'équipe</a>
+  <a href="histoire.html">Histoire</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- PAGE HEADER -->
+<header class="page-header">
+  <div class="container page-header-content">
+    <nav class="breadcrumb" aria-label="Fil d'Ariane">
+      <a href="index.html">Accueil</a>
+      <span class="breadcrumb-sep" aria-hidden="true">›</span>
+      <span>Créations</span>
+    </nav>
+    <h1 class="page-header-title">Les Créations<br><em style="font-style:italic; color:var(--accent);">de la compagnie</em></h1>
+    <p class="page-header-sub">Spectacles, festivals, expositions et projets participatifs portés par Rouletabille Théâtre depuis 2012.</p>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main>
+
+  <!-- FILTERS + GRID -->
+  <section class="section">
+    <div class="container">
+
+      <div class="creation-filter reveal">
+        <button class="filter-btn active" data-filter="all">Tous</button>
+        <button class="filter-btn" data-filter="spectacle">Spectacles</button>
+        <button class="filter-btn" data-filter="festival">Festivals</button>
+        <button class="filter-btn" data-filter="exposition">Expositions</button>
+        <button class="filter-btn" data-filter="participation">Projets participatifs</button>
+      </div>
+
+      <div class="creations-grid">
+
+        <!-- 1 -->
+        <article class="creation-card reveal" data-cat="festival">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-warm" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2026 · Festival</div>
+            <h2 class="creation-card-title">Léonard de Vinci fait son Festival #2</h2>
+            <p class="creation-card-desc">Deuxième édition du festival croisant théâtre, sport et création contemporaine. Partenariats multiples, couverture presse et radio "ici Périgord".</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Festival</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="creation-card reveal reveal-delay-1" data-cat="exposition">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-cool" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2025–2027 · Exposition</div>
+            <h2 class="creation-card-title">Chamiers, Cœur de Ville — Mémoires et Métamorphoses</h2>
+            <p class="creation-card-desc">Documentation de dix ans de rénovation urbaine à travers le "Carnet d'évolutions", une exposition collaborative avec les habitants du quartier.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Exposition participative</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="creation-card reveal reveal-delay-2" data-cat="spectacle">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-neutral" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2024–2026 · Spectacle</div>
+            <h2 class="creation-card-title">Un Récit</h2>
+            <p class="creation-card-desc">En partenariat avec la Cie Lilo. Trois personnes se lèvent au milieu des spectateurs — un danseur et deux comédiens dans une narration immersive et poétique.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Théâtre · Danse</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="creation-card reveal" data-cat="festival">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-warm2" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2025 · Festival</div>
+            <h2 class="creation-card-title">Entre Tour et Bourg, Voix de Femmes, Regards Croisés</h2>
+            <p class="creation-card-desc">Festival consacré aux regards féminins croisés, avec vidéos teaser, affiches et couverture presse extensive.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Festival</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="creation-card reveal reveal-delay-1" data-cat="participation">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-cool2" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2025 · Projet participatif</div>
+            <h2 class="creation-card-title">Cycle "L'Histoire est dans la Rue"</h2>
+            <p class="creation-card-desc">En partenariat avec l'Université Populaire en Périgord. Questions d'identité, noms de rues, histoire coloniale — des échanges au sein des ateliers "Rdv's au...".</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Médiation · Débat</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="creation-card reveal reveal-delay-2" data-cat="participation">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-warm3" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2025 · Arts urbains</div>
+            <h2 class="creation-card-title">Vibrations — Vacances au croisement des Arts Urbains</h2>
+            <p class="creation-card-desc">25–27 février 2025 au Hangar. Danse, musique, skateboard en partenariat avec Le Sans Réserve et All Boards Family.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Arts urbains</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="creation-card reveal" data-cat="festival">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-warm" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2025 · Festival</div>
+            <h2 class="creation-card-title">Léonard de Vinci fait son Festival #1</h2>
+            <p class="creation-card-desc">Première édition du festival explorant les liens entre théâtre et sport. Couverture radio disponible via le podcast "ici Périgord".</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Festival</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article class="creation-card reveal reveal-delay-1" data-cat="participation">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-cool" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">2024–2026 · Résidences</div>
+            <h2 class="creation-card-title">Les Résidences Rouletabille</h2>
+            <p class="creation-card-desc">Résidences de création pendant les vacances scolaires. Un espace pour créer, tester et rencontrer d'autres artistes dans un cadre bienveillant.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Résidence · Création</span>
+              <a href="#" class="btn-ghost" style="font-size:0.75rem;">En savoir plus</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article class="creation-card reveal reveal-delay-2" data-cat="exposition">
+          <div class="creation-card-thumb">
+            <div class="creation-card-thumb-bg bg-neutral" style="position:absolute;inset:0;"></div>
+          </div>
+          <div class="creation-card-body">
+            <div class="creation-card-year">Depuis 2012 · Ateliers</div>
+            <h2 class="creation-card-title">Les Ateliers Rouletabille</h2>
+            <p class="creation-card-desc">Saison 2025–26 des ateliers de pratique artistique. Théâtre, écriture, expression corporelle pour tous les publics tout au long de l'année.</p>
+            <div class="creation-card-footer">
+              <span class="creation-card-cat">Transmission</span>
+              <a href="education.html" class="btn-ghost" style="font-size:0.75rem;">Voir les ateliers</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section--card contact-strip">
+    <div class="container">
+      <div class="contact-strip-inner reveal">
+        <div>
+          <span class="section-label">Vous souhaitez nous programmer ?</span>
+          <h2 class="section-title">Travaillons ensemble</h2>
+          <p style="max-width: 480px; margin-top: 1rem;">Rouletabille Théâtre est disponible pour des tournées, des co-productions et des partenariats culturels. Contactez-nous pour en discuter.</p>
+        </div>
+        <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Rouletabille Théâtre</div>
+        <span class="footer-brand-tag">Création · Transmission · Médiation</span>
+        <p class="footer-brand-desc">Compagnie artistique implantée en Périgord, engagée dans la création contemporaine et la transmission artistique depuis 2012.</p>
+        <div class="footer-social">
+          <a class="social-btn" href="#" aria-label="Facebook">f</a>
+          <a class="social-btn" href="#" aria-label="Twitter">𝕏</a>
+          <a class="social-btn" href="#" aria-label="Pinterest">P</a>
+        </div>
+      </div>
+      <div>
+        <span class="footer-col-title">Navigation</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="creations.html">Créations</a></li>
+          <li><a href="education.html">Éducation</a></li>
+          <li><a href="equipe.html">L'équipe</a></li>
+          <li><a href="histoire.html">Histoire</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer-col-title">La compagnie</span>
+        <ul class="footer-links">
+          <li><a href="histoire.html">Notre histoire</a></li>
+          <li><a href="equipe.html">L'équipe artistique</a></li>
+          <li><a href="education.html">Ateliers &amp; formations</a></li>
+          <li><a href="#">Partenaires</a></li>
+          <li><a href="#">Presse</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer-col-title">Contact &amp; légal</span>
+        <ul class="footer-links">
+          <li><a href="contact.html">Nous contacter</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom-text">© 2025 Rouletabille Théâtre. Tous droits réservés.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

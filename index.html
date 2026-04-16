@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rouletabille Théâtre — Création · Transmission · Médiation</title>
+  <meta name="description" content="Compagnie de théâtre Rouletabille — Création, transmission et médiation artistique en Périgord depuis 2012.">
+  <meta property="og:title"       content="Rouletabille Théâtre">
+  <meta property="og:description" content="Création · Transmission · Médiation — Compagnie de théâtre en Périgord">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://rouletabilletheatre.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="nav-logo-main">Rouletabille</span>
+      <span class="nav-logo-sub">Théâtre</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="creations.html">Créations</a></li>
+      <li><a href="education.html">Éducation</a></li>
+      <li><a href="equipe.html">L'équipe</a></li>
+      <li><a href="histoire.html">Histoire</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ==================== MOBILE MENU ==================== -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menu principal">
+  <button class="mobile-close" id="closeMenu" aria-label="Fermer le menu">✕</button>
+  <a href="index.html">Accueil</a>
+  <a href="creations.html">Créations</a>
+  <a href="education.html">Éducation</a>
+  <a href="equipe.html">L'équipe</a>
+  <a href="histoire.html">Histoire</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content container">
+    <div class="hero-eyebrow">
+      <span class="hero-eyebrow-line"></span>
+      <span class="hero-eyebrow-text">Compagnie de théâtre — Périgord, Dordogne</span>
+    </div>
+    <h1 class="hero-title">
+      L'art<br>
+      au cœur<br>
+      du <em>vivant</em>
+    </h1>
+    <p class="hero-desc">
+      Création, transmission et médiation artistique.
+      Une compagnie engagée dans le dialogue entre artistes et territoires depuis 2012.
+    </p>
+    <div class="hero-actions">
+      <a href="creations.html" class="btn btn-primary">Découvrir nos créations</a>
+      <a href="histoire.html"  class="btn btn-outline">Notre histoire</a>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <div class="hero-scroll-bar"></div>
+    <span>Défiler</span>
+  </div>
+</section>
+
+<!-- ==================== EN CE MOMENT ==================== -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">En ce moment</span>
+      <h2 class="section-title">À l'affiche</h2>
+      <p class="section-sub">Spectacles et projets de la saison 2025–2026.</p>
+    </div>
+  </div>
+  <div class="shows-grid">
+    <div class="show-card">
+      <div class="show-card-bg bg-warm"></div>
+      <div class="show-card-overlay"></div>
+      <div class="show-card-num" aria-hidden="true">01</div>
+      <div class="show-card-content">
+        <span class="show-card-tag">Festival</span>
+        <h3 class="show-card-title">Léonard de Vinci fait son Festival #2</h3>
+        <p class="show-card-date">Février 2026</p>
+      </div>
+    </div>
+    <div class="show-card">
+      <div class="show-card-bg bg-cool"></div>
+      <div class="show-card-overlay"></div>
+      <div class="show-card-num" aria-hidden="true">02</div>
+      <div class="show-card-content">
+        <span class="show-card-tag">Création · Cie Lilo</span>
+        <h3 class="show-card-title">Un Récit</h3>
+        <p class="show-card-date">En tournée — Saison 2025–26</p>
+      </div>
+    </div>
+    <div class="show-card">
+      <div class="show-card-bg bg-neutral"></div>
+      <div class="show-card-overlay"></div>
+      <div class="show-card-num" aria-hidden="true">03</div>
+      <div class="show-card-content">
+        <span class="show-card-tag">Exposition participative</span>
+        <h3 class="show-card-title">Chamiers, Cœur de Ville</h3>
+        <p class="show-card-date">2025–2027</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="margin-top: 3rem; text-align: center;">
+    <a href="creations.html" class="btn btn-outline">Voir toutes les créations</a>
+  </div>
+</section>
+
+<!-- ==================== À PROPOS ==================== -->
+<section class="section">
+  <div class="container">
+    <div class="about-grid">
+
+      <div class="about-visual reveal">
+        <div class="about-frame">
+          <div class="about-frame-inner">
+            <svg width="160" height="160" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="0.8" aria-hidden="true">
+              <rect x="10" y="30" width="80" height="55" rx="1"/>
+              <path d="M10 45 L50 20 L90 45"/>
+              <rect x="38" y="60" width="24" height="25"/>
+              <line x1="50" y1="30" x2="50" y2="45"/>
+            </svg>
+          </div>
+        </div>
+        <div class="about-badge">
+          <div class="about-stat-n">2012</div>
+          <div class="about-stat-l">Année de<br>création</div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <span class="section-label">La compagnie</span>
+        <h2 class="section-title">Créer, transmettre, médier</h2>
+        <div class="divider"></div>
+        <p style="margin-bottom: 1.5rem;">
+          Rouletabille Théâtre est une compagnie artistique implantée en Périgord.
+          Depuis 2012, elle développe des projets qui mêlent création contemporaine,
+          transmission auprès des publics et médiation culturelle sur les territoires.
+        </p>
+        <p style="margin-bottom: 2.5rem;">
+          La compagnie collabore avec les habitants, les institutions et d'autres
+          artistes pour créer des œuvres vivantes, ancrées dans les réalités locales
+          et ouvertes sur le monde.
+        </p>
+        <a href="histoire.html" class="btn btn-outline">Notre histoire</a>
+
+        <div class="pillars">
+          <div class="pillar">
+            <div class="pillar-sym" aria-hidden="true">◈</div>
+            <div class="pillar-name">Création</div>
+            <p class="pillar-desc">Spectacles vivants et projets artistiques contemporains</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-sym" aria-hidden="true">◇</div>
+            <div class="pillar-name">Transmission</div>
+            <p class="pillar-desc">Ateliers, formations et éducation artistique</p>
+          </div>
+          <div class="pillar">
+            <div class="pillar-sym" aria-hidden="true">○</div>
+            <div class="pillar-name">Médiation</div>
+            <p class="pillar-desc">Rencontres, débats et projets de territoire</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ACTUALITÉS ==================== -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Actualités</span>
+      <h2 class="section-title">Dernières nouvelles</h2>
+    </div>
+  </div>
+  <div class="news-grid">
+    <div class="news-featured reveal">
+      <div class="news-featured-bg"></div>
+      <div class="news-featured-overlay"></div>
+      <div class="news-featured-content">
+        <span class="news-tag">Résidences · Février 2026</span>
+        <h3 class="news-featured-title">
+          Les résidences 2026 —<br>Un espace pour créer, tester, rencontrer
+        </h3>
+        <p class="news-excerpt">
+          Pendant les vacances scolaires, la compagnie ouvre ses résidences à des artistes
+          en développement. Un espace d'expérimentation et de rencontres artistiques.
+        </p>
+        <div class="news-meta" style="margin-top: 1.5rem;">
+          <span>Février 2026</span>
+          <a href="#" class="btn-ghost" style="font-size: 0.75rem;">Lire l'article</a>
+        </div>
+      </div>
+    </div>
+    <div class="news-sidebar">
+      <div class="news-item reveal">
+        <div>
+          <div class="news-tag">Projet urbain · Janv. 2026</div>
+          <h4 class="news-title">Chamiers, Cœur de Ville — Mémoires et Métamorphoses</h4>
+          <p class="news-excerpt">Dix ans de rénovation urbaine documentés à travers une exposition participative avec les habitants.</p>
+        </div>
+        <div class="news-meta">
+          <span>Jan. 2026</span>
+          <a href="#" class="btn-ghost" style="font-size: 0.72rem;">Lire</a>
+        </div>
+      </div>
+      <div class="news-item reveal reveal-delay-1">
+        <div>
+          <div class="news-tag">Arts urbains · Fév. 2025</div>
+          <h4 class="news-title">Vibrations — Vacances au croisement des Arts Urbains</h4>
+          <p class="news-excerpt">Danse, musique, skateboard : trois jours d'ateliers pluridisciplinaires au Hangar avec Le Sans Réserve.</p>
+        </div>
+        <div class="news-meta">
+          <span>Fév. 2025</span>
+          <a href="#" class="btn-ghost" style="font-size: 0.72rem;">Lire</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ATELIERS ==================== -->
+<section class="section">
+  <div class="container">
+    <div class="workshops-intro">
+      <div class="reveal">
+        <span class="section-label">Éducation artistique et culturelle</span>
+        <h2 class="section-title">Ateliers &amp; formations</h2>
+        <div class="divider"></div>
+        <p>
+          La transmission est au cœur de notre démarche. Nous proposons des ateliers
+          pour tous les publics — scolaires, adultes, seniors —, ainsi que des résidences
+          pour artistes et des projets de médiation culturelle sur le territoire.
+        </p>
+      </div>
+      <div class="reveal reveal-delay-1" style="display:flex; flex-direction:column; gap:1rem; justify-content:center;">
+        <a href="education.html" class="btn btn-primary">Voir les ateliers</a>
+        <a href="contact.html"   class="btn btn-outline">Demander un devis</a>
+      </div>
+    </div>
+    <div class="workshops-grid reveal">
+      <div class="workshop-item">
+        <div class="workshop-num">01</div>
+        <h3 class="workshop-title">Théâtre scolaire</h3>
+        <p class="workshop-desc">Ateliers de pratique théâtrale pour les classes de primaire, collège et lycée dans le cadre des projets EAC.</p>
+      </div>
+      <div class="workshop-item">
+        <div class="workshop-num">02</div>
+        <h3 class="workshop-title">Arts urbains</h3>
+        <p class="workshop-desc">Danse, musique et arts visuels pour les jeunes publics pendant les vacances scolaires.</p>
+      </div>
+      <div class="workshop-item">
+        <div class="workshop-num">03</div>
+        <h3 class="workshop-title">Résidences</h3>
+        <p class="workshop-desc">Espaces de création et d'expérimentation ouverts aux artistes émergents et confirmés.</p>
+      </div>
+      <div class="workshop-item">
+        <div class="workshop-num">04</div>
+        <h3 class="workshop-title">Médiation culturelle</h3>
+        <p class="workshop-desc">Rencontres-débats et projets participatifs ancrés dans la réalité des habitants du territoire.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT STRIP ==================== -->
+<section class="section--card contact-strip">
+  <div class="container">
+    <div class="contact-strip-inner reveal">
+      <div>
+        <span class="section-label">Nous retrouver</span>
+        <h2 class="section-title">Rouletabille Théâtre</h2>
+        <div class="contact-details">
+          <div>
+            <div class="contact-detail-label">Territoire</div>
+            <div class="contact-detail-val">Périgord, Dordogne (24)</div>
+          </div>
+          <div>
+            <div class="contact-detail-label">Réseaux sociaux</div>
+            <div class="contact-detail-val">Facebook · Twitter · Pinterest</div>
+          </div>
+          <div>
+            <div class="contact-detail-label">Newsletter</div>
+            <div class="contact-detail-val">
+              <a href="contact.html" style="color: var(--accent);">S'abonner →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a href="contact.html" class="btn btn-primary" style="font-size:0.88rem; padding: 1.1rem 2.5rem;">
+          Prendre contact
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">Rouletabille Théâtre</div>
+        <span class="footer-brand-tag">Création · Transmission · Médiation</span>
+        <p class="footer-brand-desc">
+          Compagnie artistique implantée en Périgord, engagée dans la création
+          contemporaine et la transmission artistique depuis 2012.
+        </p>
+        <div class="footer-social">
+          <a class="social-btn" href="#" aria-label="Facebook">f</a>
+          <a class="social-btn" href="#" aria-label="Twitter / X">𝕏</a>
+          <a class="social-btn" href="#" aria-label="Pinterest">P</a>
+        </div>
+      </div>
+      <div>
+        <span class="footer-col-title">Navigation</span>
+        <ul class="footer-links">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="creations.html">Créations</a></li>
+          <li><a href="education.html">Éducation</a></li>
+          <li><a href="equipe.html">L'équipe</a></li>
+          <li><a href="histoire.html">Histoire</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer-col-title">La compagnie</span>
+        <ul class="footer-links">
+          <li><a href="histoire.html">Notre histoire</a></li>
+          <li><a href="equipe.html">L'équipe artistique</a></li>
+          <li><a href="education.html">Ateliers &amp; formations</a></li>
+          <li><a href="#">Partenaires</a></li>
+          <li><a href="#">Presse</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer-col-title">Contact &amp; légal</span>
+        <ul class="footer-links">
+          <li><a href="contact.html">Nous contacter</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Confidentialité</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom-text">© 2025 Rouletabille Théâtre. Tous droits réservés.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Mentions légales</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
