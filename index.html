@@ -10,7 +10,7 @@
   <meta property="og:type"        content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -67,7 +67,24 @@
     </div>
   </div>
 
-  <div class="hero-right">
+  <div class="hero-right" style="position:relative;">
+    <!-- Physalis SVG decoration -->
+    <svg class="physalis physalis-decoration--hero" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;right:2rem;top:50%;transform:translateY(-55%);width:clamp(90px,12vw,160px);opacity:0.72;pointer-events:none;">
+      <g class="physalis-plant">
+        <path class="physalis-stem" d="M50 195 C50 175 48 155 50 130"/>
+        <path class="physalis-leaf" d="M50 165 C38 155 22 158 26 148 C30 138 46 144 50 155 Z"/>
+        <path class="physalis-leaf physalis-leaf--pale" d="M50 155 C62 145 78 148 74 138 C70 128 54 134 50 145 Z"/>
+        <g class="physalis-calyx" transform="translate(50,88)">
+          <path class="physalis-petal" d="M0,0 C-9,-8 -7,-32 0,-38 C7,-32 9,-8 0,0"/>
+          <path class="physalis-petal physalis-petal--shade" d="M0,0 C-9,-8 -7,-32 0,-38 C7,-32 9,-8 0,0" transform="rotate(72)"/>
+          <path class="physalis-petal" d="M0,0 C-9,-8 -7,-32 0,-38 C7,-32 9,-8 0,0" transform="rotate(144)"/>
+          <path class="physalis-petal physalis-petal--shade" d="M0,0 C-9,-8 -7,-32 0,-38 C7,-32 9,-8 0,0" transform="rotate(216)"/>
+          <path class="physalis-petal physalis-petal--light" d="M0,0 C-9,-8 -7,-32 0,-38 C7,-32 9,-8 0,0" transform="rotate(288)"/>
+        </g>
+        <circle class="physalis-berry" cx="50" cy="88" r="13"/>
+        <circle class="physalis-berry--small" cx="55" cy="83" r="5"/>
+      </g>
+    </svg>
     <div style="max-width: 480px; padding-right: 2rem;">
       <p class="hero-right-label">La compagnie en trois mots</p>
       <div class="hero-pillars">
@@ -249,7 +266,7 @@
 </section>
 
 <!-- ATELIERS -->
-<section class="section">
+<section class="section section--botanical">
   <div class="container">
     <div class="workshops-intro">
       <div class="reveal">

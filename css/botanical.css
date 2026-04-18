@@ -375,6 +375,43 @@
 .border-leaf       { border-color: var(--leaf-mid); }
 
 /* =============================================
+   SITE-WIDE OVERRIDES — botanical integration
+   ============================================= */
+
+/* Section labels become Caveat handwriting site-wide */
+.section-label {
+  font-family: var(--font-hand);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--physalis-deep);
+}
+
+/* Hero eyebrow annotation in Caveat */
+.hero-eyebrow-text {
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  letter-spacing: 0.06em;
+  color: var(--physalis-deep);
+}
+
+/* Timeline years: keep serif but use physalis amber */
+.timeline-year { color: var(--physalis-deep); }
+
+/* Page headers get parchment background */
+.page-header { background: var(--botanical-bg); }
+
+/* Hero right panel: parchment tint */
+.hero-right { background: var(--botanical-bg); }
+
+/* Atelier / workshop schedule section tint */
+.section--botanical .edu-card,
+.section--botanical .workshop-item {
+  background: var(--parchment);
+  border: 1px solid var(--parchment-dark);
+}
+
+/* =============================================
    RESPONSIVE
    ============================================= */
 
